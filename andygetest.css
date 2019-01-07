@@ -20,6 +20,7 @@ h1,h2,h3,h4,h5,h6,p {
 #playlistHolder h1{
 	text-align: center;
 	font-size: 30px;
+    margin-bottom: 10px;
 }
 
 #playlistHolder .playlist-entry{
@@ -38,6 +39,12 @@ h1,h2,h3,h4,h5,h6,p {
 .playlist-entry img{
 	float: left;
     margin-right: 10px;
+}
+
+.playlist-entry .entry-date {
+	font-style:italic;
+	margin: 2px 0;
+    font-size: 14px;
 }
 
 #playlistHolder .playlist-entry:nth-of-type(2n) {
