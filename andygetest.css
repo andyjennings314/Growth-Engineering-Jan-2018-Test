@@ -1,7 +1,37 @@
 body {
 	margin: 0;
+	color: white;
+	background-color: #193654;
+	font-family: "Open Sans", sans-serif;
 }
 
-#playlistHolder {}
+h1,h2,h3,h4,h5,h6,p {
+	margin:0;
+}
 
-#playlistHolder .playlist-entry{}
+#playlistHolder {	
+	margin: 25px;
+	padding: 10px;
+	border-radius: 5px;
+	color: #193654;
+	background-color: white;
+}
+
+#playlistHolder h1{}
+
+#playlistHolder .playlist-entry{
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #193654;
+    min-height: 180px;
+}
+
+.playlist-entry a{
+	text-decoration: none;
+}
+
+.playlist-entry img{
+	float: left;
+    margin-right: 10px;
+}

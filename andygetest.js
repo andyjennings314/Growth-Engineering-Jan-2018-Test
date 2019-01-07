@@ -4,8 +4,8 @@
 	function generateListEntry(listEntry) {
 		var content="<div class='playlist-entry'>"
 		
-		content += "<h2><a target='_blank' href='https://www.youtube.com/watch?v=" + listEntry.resourceId.videoId + "'>" + listEntry.title + "</a></h2>";
 		content += "<a target='_blank' href='https://www.youtube.com/watch?v=" + listEntry.resourceId.videoId + "'><img src='" + listEntry.thumbnails.medium.url + "' /></a>";
+		content += "<h2><a target='_blank' href='https://www.youtube.com/watch?v=" + listEntry.resourceId.videoId + "'>" + listEntry.title + "</a></h2>";
 		content += "<p>" + listEntry.publishedAt + "</p>";
 		content += "<p>" + listEntry.description + "</p>";
 		
